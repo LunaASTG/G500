@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="stylesheet" href="custom.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>G500 Morelia</title>
+
+</head>
+
+<body class="stretched" data-loader="2" data-loader-color="#17A99C">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix" style="background-color: #f1f1f1!important">
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header page-section dark">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo"><img src="images/logo.png" alt="G500 Logo"></a>
+						<a href="index.html" class="retina-logo"><img src="images/logo@2x.png" alt="G500V Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul class="one-page-menu">
+							<li class="current"><a href="index.html" ><div>Inicio</div></a></li>
+							<li><a href="index.html#tab-1"><div>Programa General</div></a></li>
+							<li><a href="index.html#sede"><div>Sede</div></a></li>
+							<li><a href="index.html#registro"><div>Registro</div></a></li>
+							<li><a href="index.html#contacto"><div>Contacto</div></a></li>
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-parallax dark bottommargin-sm" style="background: url('images/inicio/3.png'); background-size: cover; background-repeat:no-repeat; background-position: bottom center;" data-height-lg="670" data-height-md="500" data-height-sm="400" data-height-xs="250" data-height-xxs="200">
+			<div class="slider-parallax-inner">
+				<div class="container clearfix">
+					<div class="vertical-middle center">
+
+						<div class="heading-block title-center nobottomborder">
+			        <h1 class="hidden-xs">Registro de Asamblea Nacional del Grupo G500<br>Morelia 2017</h1>
+							<h6 class="visible-xs topmargin">Registro de Asamblea Nacional del Grupo G500<br>Morelia 2017</h6>
+			        <span class="black hidden-xs" style="font-size: 30px;">22 al 25 de Junio</span
+								<span class="black visible-xs" style="font-size: 16px;">22 al 25 de Junio</span>
+			      </div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content topmargin">
+      <div class="container clearfix">
+
+        <!-- Contact Form Overlay
+        ============================================= -->
+        <div id="contact-form-overlay" class="clearfix">
+
+          <div class="fancy-title title-dotted-border">
+            <h3>DATOS GENERALES</h3>
+          </div>
+            <h5>Los campos marcados con * son OBLIGATORIOS.</h5>
+          <div class="contact-widget">
+
+            <div class="contact-form-result"></div>
+
+            <!-- Contact Form
+            ============================================= -->
+            <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/registro.php" method="post">
+
+              <div class="col_full">
+                <label for="template-contactform-name">Nombre del Representante <small>*</small></label>
+                <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+              </div>
+              <div class="clear"></div>
+
+							<div class="col_full">
+								<label for="template-contactform-razon">EMPRESA / RAZÓN SOCIAL<small>*</small></label>
+								<input type="text" id="template-contactform-razon" name="template-contactform-razon" value="" class="required sm-form-control" />
+							</div>
+
+              <div class="col_half">
+                <label for="template-contactform-email">Correo <small>*</small></label>
+                <input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+              </div>
+              <div class="col_half col_last">
+                <label for="template-contactform-phone">Teléfono <small>*</small></label>
+                <input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="required sm-form-control" />
+              </div>
+              <div class="clear"></div>
+
+              <div class="col_half">
+                <label for="template-contactform-station">Estación de Servicio<small>*</small></label>
+                <input type="text" id="template-contactform-station" placeholder="Ej. AA-00000" name="template-contactform-station" value="" class="sm-form-control" />
+              </div>
+
+              <div class="col_half col_last">
+								<label for="template-contactform-factura">Factura</label>
+								<select id="template-contactform-factura" name="template-contactform-factura" class="sm-form-control">
+									<option value="">-- Selecciona la opción --</option>
+									<option value="Si">Sí</option>
+									<option value="No">No</option>
+								</select>
+              </div>
+
+              <div class="clear"></div>
+
+
+							<div class="col_half">
+								<div class="accordion clearfix">
+
+									<div class="acctitle black"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>PAQUETE TODO INCLUIDO 1 PERSONA</div>
+									<div class="acc_content clearfix">
+										<ul>
+											<li>Traslados <br> Aeropuerto MLM – Hotel – Aeropuerto MLM</li>
+											<li>Traslados locales</li>
+											<li>Hospedaje 4 días 3 noches</li>
+											<li>Desayuno Buffet</li>
+											<li>Comida Asamblea</li>
+											<li>Noche Botanera</li>
+											<li>Tour Patzcuaro tzintzuntzan<br>y Cocina Tradicional</li>
+										</ul>
+										<div class="center">
+											<h3 class="nobottommargin">$6,825.00</h3><p class="black">Costo por persona en habitación sencilla.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col_half col_last">
+								<div class="accordion clearfix">
+
+									<div class="acctitle black"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>PAQUETE TODO INCLUIDO PARA 2 PERSONAS</div>
+									<div class="acc_content clearfix">
+										<ul>
+											<li>Traslados <br> Aeropuerto MLM – Hotel – Aeropuerto MLM</li>
+											<li>Traslados locales</li>
+											<li>Hospedaje 4 días 3 noches (habitación doble)</li>
+											<li>Desayuno Buffet (2 personas)</li>
+											<li>Comida Asamblea (2 personas)</li>
+											<li>Noche Botanera (2 personas)</li>
+											<li>Tour patzcuaro tzintzuntzan<br>y Cocina Tradicional (2 personas)</li>
+										</ul>
+										<div class="center">
+											<h3 class="nobottommargin">$9,965.00</h3><p class="black">Costo por 2 personas habitación doble.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col_half">
+									<label for="template-contactform-paquete-todo">Elegir Paquete (Todo Incluido)</label>
+									<select id="template-contactform-paquete-todo" name="template-contactform-paquete-todo" class="sm-form-control">
+										<option value="No">-- Selecciona la opción --</option>
+										<option value="Si-Todo-1">Paquete todo incluido 1 persona</option>
+										<option value="Si-Todo-2">Paquete todo incluido 2 personas</option>
+									</select>
+							</div>
+							<div class="col_half col_last">
+								<label for="template-contactform-extra1">Nombre asistente(s) (Separar con coma)</label>
+                <input type="text" id="template-contactform-extra1" name="template-contactform-extra1" value="" class="sm-form-control" />
+							</div>
+							<div class="clear"></div>
+
+							<div class="fancy-title title-dotted-border topmargin-sm">
+								<h3>PAQUETES INDIVIDUALES</h3>
+							</div>
+
+							<h4 class="topmargin-sm">Hospedaje</h4>
+
+
+						    <h4 class="center" style="color: #0C797A;">Hotel Best Western Plus Morelia</h4>
+						    <div class="col_half center nobottommargin">
+						      <h3 class="nobottommargin">$1,375.00</h3><p class="black">Habitación sencilla</p>
+						    </div>
+								<div class="col_half col_last center nobottommargin">
+									<h3 class="nobottommargin">$1,555.00 </h3><p class="black">Habitación doble</p>
+								</div>
+								<div class="clear"></div>
+						    <p class="center notopmargin bottommargin"><em>*Costo por habitación por noche con desayuno tipo buffet  e impuestos incluidos.</em></p>
+
+							<div class="col_one_third">
+								<label for="template-contactform-hentrada">Fecha de entrada</label>
+								 <input type="date" id="template-contactform-hentrada" name="template-contactform-hentrada" value="" class="sm-form-control" />
+							</div>
+							<div class="col_one_third">
+								<label for="template-contactform-hsalida">Fecha de salida</label>
+								 <input type="date" id="template-contactform-hsalida" name="template-contactform-hsalida" value="" class="sm-form-control" />
+							</div>
+
+							<div class="col_one_third col_last">
+								<label for="template-contactform-hospedaje">Hospedaje personalizado</label>
+								<select id="template-contactform-hospedaje" name="template-contactform-hospedaje" class="sm-form-control">
+									<option value="No">No</option>
+									<option value="Si">SÍ</option>
+								</select>
+							</div>
+							<div class="clear"></div>
+
+							<div id="hotel_1" class="hotel">
+							</div>
+							<div id="hotel_2" class="hotel">
+								<div class="col_one_third">
+									<label for="template-contactform-extra2">Número de Asistentes</label>
+										<input type="text" id="template-contactform-extra2" name="template-contactform-extra2" value="" class="sm-form-control" />
+								</div>
+								<div class="col_one_third">
+									<label for="template-contactform-extra3">Número de Habitaciones</label>
+										<input type="text" id="template-contactform-extra3" name="template-contactform-extra3" value="" class="sm-form-control" />
+								</div>
+								<div class="col_one_third col_last">
+									<label for="template-contactform-extra4">Tipo de habitación</label>
+									<select id="template-contactform-extra4" name="template-contactform-extra4" class="sm-form-control">
+									 <option value="Sencilla">Sencilla</option>
+									 <option value="Doble">Doble</option>
+								 </select>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+							<h4>Comida Asamblea y Noche Botanera</h4>
+							<p><i>Atención asistente, su registro a la Asamblea G500 incluye la asistencia a la Comida asamblea.</i></p>
+							<div class="col_half">
+								<div class="accordion clearfix">
+
+									<div class="acctitle black"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>COMIDA ASAMBLEA</div>
+									<div class="acc_content clearfix">
+										<ul>
+											<li>Salón SantaTerra Morelia</li>
+											<li>Viernes 23 de junio</li>
+											<li>14:00 a 18:00 hrs</li>
+										</ul>
+										<div class="center">
+											<h3 class="nobottommargin">$700.00</h3><p class="black notopmargin">Costo por persona.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col_half col_last">
+								<div class="accordion clearfix">
+
+									<div class="acctitle black"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>NOCHE BOTANERA</div>
+									<div class="acc_content clearfix">
+										<ul>
+									    <li>Salón SantaTerra Morelia</li>
+									    <li>Viernes 23 de junio</li>
+									    <li>18:00 a 21:00 hrs</li>
+									    <li>Incluye bebidas y botanas ilimitadas por 3 horas</li>
+									  </ul>
+										<div class="center">
+											<h3 class="nobottommargin">$300.00</h3><p class="black">Costo por persona.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="col_half">
+								<label for="template-contactform-food">Elegir opción</label>
+								<select id="template-contactform-food" name="template-contactform-food" class="sm-form-control">
+									<option value="Comida Asamble y Noche Botanera">Comida Asamblea y Noche Botanera</option>
+									<option value="Sólo Comida Asamblea">Comida Asamblea</option>
+								</select>
+							</div>
+
+								<div class="col_half col_last">
+									<label for="template-contactform-extra5">Número de Asistentes</label>
+			              <input type="text" id="template-contactform-extra5" name="template-contactform-extra5" value="" class="sm-form-control" />
+								</div>
+								<div class="clear"></div>
+								 <label for="template-contactform-extra6">Nombres de Asistentes (Separar con coma)</label>
+	                <input type="text" id="template-contactform-extra6" name="template-contactform-extra6" value="" class="sm-form-control" />
+							<div class="clear"></div>
+
+							<h4 class="topmargin-sm">Tour Pátzcuaro</h4>
+							<div class="col_half">
+								<div class="center">
+									<h5>TZINTZUNTZAN Y COCINA TRADICIONAL</h5>
+						    	<h3 class="nobottommargin">$700.00</h3><p class="black">Costo por persona.</p>
+						    </div>
+							</div>
+							<div class="col_half col_last">
+								<ul class="justify">
+									<li>Sábado 24 de junio</li>
+									<li>Salida 10:00 hrs</li>
+									<li>Punto de reunión: Hotel Best Western Morelia</li>
+									<li>Incluye <em>transporte, guía de turistas, city tour Pátzcuaro – Tzintzuntzan y Comida con Cocineras Tradicionales en el Ex Convento Franciscano de Santa Ana.</em></li>
+								</ul>
+							</div>
+							<div class="clear"></div>
+
+							<div class="col_half">
+								<label for="template-contactform-tour1">Elegir opción</label>
+								<select id="template-contactform-tour1" name="template-contactform-tour1" class="sm-form-control">
+									<option value="No">No</option>
+									<option value="Si">SÍ</option>
+								</select>
+							</div>
+
+							<div id="tourf_1" class="tourform">
+							</div>
+							<div id="tourf_2" class="tourform">
+								<div class="col_half col_last">
+									<label for="template-contactform-extra7">Número de de Asistentes</label>
+			              <input type="text" id="template-contactform-extra7" name="template-contactform-extra7" value="" class="sm-form-control" />
+								</div>
+								<div class="clear"></div>
+								 <label for="template-contactform-extra8">Nombres de Asistentes (Separar con coma)</label>
+	                <input type="text" id="template-contactform-extra8" name="template-contactform-extra8" value="" class="sm-form-control" />
+							</div>
+							<div class="clear"></div>
+
+							<h4 class="topmargin-sm">Tours Morelia</h4>
+
+							<div class="col_half center">
+								<h3 class="nobottommargin">$300.00</h3><p class="black">Costo por persona.</p>
+								<div class="col_half">
+									<h5>Viernes 23 de Junio<br>10:00 a 12:00 hrs.</h5>
+									<ul style="list-style: none;">
+										<li>- Cocina Tradicional;</li>
+										<li>- Golf Master Class;</li>
+										<li>- Tranvía;</li>
+										<li>- Casa de las artesanías.</li>
+									</ul>
+								</div>
+								<div class="col_half col_last">
+									<h5>Sábado 24 de Junio<br>18:00 a 21:00 hrs.</h5>
+									<ul style="list-style: none;">
+										<li>- Tranvía;</li>
+										<li>- Leyendas;</li>
+										<li>- Prefiero Local.</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col_half col_last">
+								<ul>
+									<li>Punto de reunión: Hotel Best Western Plus Morelia</li>
+									<li>Taller de Cocina Tradicional – Zirita.</li>
+									<li>Golf Master Class, Club de Golf Altozano.</li>
+									<li>Tranvía, recorrido por los edificios más emblemáticos del Centro Histórico de Morelia.</li>
+									<li>Leyendas de Morelia.</li>
+									<li>Visita a Casa de las Artesanías y Mercado de Dulces.</li>
+									<li>Prefiero Local, visita al mercado Don Lucas, comida casual y cerveza artesanal.</li>
+								</ul>
+							</div>
+							<div class="clear"></div>
+
+							<div class="col_one_third">
+								<label for="template-contactform-tour2">Elegir opción</label>
+								<select id="template-contactform-tour2" name="template-contactform-tour2" class="sm-form-control">
+									<option value="No">No</option>
+									<option value="Si">SÍ</option>
+								</select>
+							</div>
+
+							<div id="tour_1" class="tour">
+							</div>
+							<div id="tour_2" class="tour">
+								<div class="col_one_third">
+									<label for="template-contactform-morelia-tour3">Elegir tour (23 Junio)</label>
+									<select id="template-contactform-morelia-tour3" name="template-contactform-morelia-tour3" class="sm-form-control">
+										<option value=""></option>
+										<option value="23-Cocina Tradicional">23 Junio | Cocina Tradicional 10:00 a 12:00 hrs</option>
+										<option value="23-Golf Master Class">23 Junio | Golf Master Class 10:00 a 12:00 hrs</option>
+										<option value="23-Tranvía">23 Junio | Tranvía 10:00 a 12:00 hrs</option>
+										<option value="23-CasaArtesanias">23 Junio | Casa de las Artesanías 10:00 a 12:00 hrs</option>
+									</select>
+								</div>
+								<div class="col_one_third col_last">
+									<label for="template-contactform-morelia-tour4">Elegir tour (24 Junio)</label>
+									<select id="template-contactform-morelia-tour4" name="template-contactform-morelia-tour4" class="sm-form-control">
+										<option value=""></option>
+										<option value="24-Tranvía">24 Junio | Tranvía 18:00 a 21:00 hrs</option>
+										<option value="24-Leyendas">24 Junio | Leyendas 18:00 a 21:00 hrs</option>
+										<option value="24-Prefiero">24 Junio | Prefiero Local 18:00 a 21:00 hrs</option>
+									</select>
+								</div>
+								<div class="clear"></div>
+								<div class="col_one_third">
+									<label for="template-contactform-extra9">Número de de Asistentes</label>
+										<input type="text" id="template-contactform-extra9" name="template-contactform-extra9" value="" class="sm-form-control" />
+								</div>
+								<div class="col_two_third col_last">
+									<label for="template-contactform-extra10">Nombres de Asistentes (Separar con coma)</label>
+ 									<input type="text" id="template-contactform-extra10" name="template-contactform-extra10" value="" class="sm-form-control" />
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="clear"></div>
+
+							<h6>* Pregunta por el Green Fee en el <a href="http://altozano.com.mx/campo-de-golf-morelia/">Campo de Golf Altozano Morelia</a>, tenemos precios especiales para ti. </h6>
+							<br>
+							<h4 class="center">El costo total junto con tu orden de pago se enviará vía correo electrónico en cuanto llegue tu registro.</h4>
+
+							<div class="line"></div>
+
+							<div class="col_full">
+								<label for="template-contactform-message">Dudas y comentarios</label>
+								<textarea class="sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+							</div>
+							<div class="clear"></div>
+
+							<span class="center black"><p>También puedes hacer tu Registro vía telefónica, ponte en contacto con nosotros: <br>Tel: 014433151421 <br>Whatsapp: 4432027286 <br>reservaciones@g500morelia.com</p></span>
+
+              <div class="col_full hidden">
+                <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+              </div>
+
+							<div class="col_half topmargin center">
+								<div class="g-recaptcha" data-sitekey="6LezgiEUAAAAAClQM29-gyj4BgvWUf2M53DJQGoE"></div>
+							</div>
+              <div class="col_half col_last topmargin center">
+                <button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit" src="index.html">ENVIAR REGISTRO</button>
+              </div>
+
+            </form>
+          </div>
+
+
+
+
+        </div><!-- Contact Form Overlay End -->
+
+      </div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights nopadding">
+
+				<div class="container clearfix">
+
+					<div class="col_full left nobottommargin">
+						<img src="images/logo.png" alt="G500">
+					</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script language="javascript" type="text/javascript">
+						$(document).ready(function(){
+							 $(".hotel").hide();
+							 $("#template-contactform-hospedaje").change(function(){
+							 $(".hotel").hide();
+									 $("#hotel_" + $(this).val()).show();
+							 });
+					 });
+
+					 $(document).ready(function(){
+							 $(".contenido").hide();
+							 $("#template-contactform-food").change(function(){
+							 $(".contenido").hide();
+									 $("#div_" + $(this).val()).show();
+							 });
+					 });
+
+					 $(document).ready(function(){
+							$(".tourform").hide();
+							$("#template-contactform-tour1").change(function(){
+							$(".tourform").hide();
+									$("#tourf_" + $(this).val()).show();
+							});
+					});
+
+					$(document).ready(function(){
+						 $(".tour").hide();
+						 $("#template-contactform-tour2").change(function(){
+						 $(".tour").hide();
+								 $("#tour_" + $(this).val()).show();
+						 });
+				 });
+			 </script>
+
+</body>
+</html>

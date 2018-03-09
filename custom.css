@@ -1,0 +1,142 @@
+@font-face {
+font-family: 'Avenir LT Std 95 Black';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black'), url('fonts/AvenirLTStd-Black.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book'), url('fonts/AvenirLTStd-Book.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 85 Heavy'), url('fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 35 Light';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 35 Light'), url('fonts/AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 65 Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium'), url('fonts/AvenirLTStd-Medium.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 55 Roman'), url('fonts/AvenirLTStd-Roman.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 95 Black Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black Oblique'), url('fonts/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book Oblique'), url('fonts/AvenirLTStd-BookOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 85 Heavy Oblique'), url('fonts/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 35 Light Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 35 Light Oblique'), url('fonts/AvenirLTStd-LightOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 65 Medium Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium Oblique'), url('fonts/AvenirLTStd-MediumOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 55 Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 55 Oblique'), url('fonts/AvenirLTStd-Oblique.woff') format('woff');
+}
+
+.black {
+  font-family: 'Avenir LT Std 95 Black'!important;
+}
+.button-custom {
+  background-color: #17A99C;
+}
+.button-custom2 {
+  background-color: #116571;
+}
+.button-custom3 {
+  background-color: #3D3D3D;
+}
+.sub-1 {
+  font-weight: bold;
+  color: #17A99C;
+  font-style: oblique;
+}
+.justify {
+  text-align: justify;
+}
+.bimage-1 {
+  background-image: url(images/inicio/3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg-dark {
+  background-color: #3D3D3D;
+}
+.sub-2 {
+  color: #ffffff!important;
+  font-size: 16px!important;
+}
+.sub-3 {
+  color: #17A99C!important;
+}
+.programa-list {
+  text-align: left;
+}
+.horario-list {
+  list-style: none;
+}
+#tabs-1 {
+  border-bottom: 3px solid #17A99C;
+  padding-top: 2px;
+}
+#tabs-2 {
+  border-bottom: 3px solid #17A99C;
+  padding-top: 2px;
+}
+#tabs-3 {
+  border-bottom: 3px solid #17A99C;
+  padding-top: 2px;
+}
+#tabs-4 {
+  border-bottom: 3px solid #17A99C;
+  padding-top: 2px;
+}
